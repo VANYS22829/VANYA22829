@@ -862,7 +862,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 516034900}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1420681254}
+        m_TargetAssemblyTypeName: AnketaScript, Assembly-CSharp
+        m_MethodName: OnButtonUserName
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &516034900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2325,6 +2337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe3ef0205f68684c8aca09b5b5a0307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameInputField: {fileID: 939327979}
+  nameText: {fileID: 1993930805}
 --- !u!1 &1525839507
 GameObject:
   m_ObjectHideFlags: 0
