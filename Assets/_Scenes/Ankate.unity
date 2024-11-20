@@ -1789,12 +1789,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2055509568}
-  m_Father: {fileID: 1420681250}
+  m_Father: {fileID: 1628083599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -70, y: -123}
+  m_SizeDelta: {x: 600, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051009824
 MonoBehaviour:
@@ -2253,7 +2253,6 @@ RectTransform:
   - {fileID: 1162453095}
   - {fileID: 96423126}
   - {fileID: 1525839508}
-  - {fileID: 1051009823}
   m_Father: {fileID: 184570133}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2338,7 +2337,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameInputField: {fileID: 939327979}
-  nameText: {fileID: 1993930805}
+  nameTmpText: {fileID: 1993930805}
+  ageInputField: {fileID: 1628083600}
+  ageTmpText: {fileID: 137451593}
 --- !u!1 &1525839507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2583,6 +2584,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1677400791}
+  - {fileID: 1051009823}
   m_Father: {fileID: 1525839508}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
